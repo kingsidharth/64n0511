@@ -1,6 +1,6 @@
 #64n0511 Child Theme for Thesis
 
-This is limited version of design I made for my blog 64notes.com.
+This is limited version of design I made for my blog http://64notes.com.
 
 ##Requirements
 WordPress: http://www.wordpress.org
@@ -25,6 +25,3 @@ Thesis Theme Framework for WordPress: http://www.64notes.com/thesis
 * You can redistribute your modificaiton but not sell it.
 
 **Note**: Thesis Theme is trademark and copyright of DIY Themes and Chirs Pearson.
-
-
-
