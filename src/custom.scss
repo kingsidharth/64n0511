@@ -1,0 +1,92 @@
+@import 'compass';
+
+/*  Color Definitions
+------------------------*/
+$white: #FAFAFA;
+$grey: #E1E1E1;
+$sblue: #0099AB;
+$blue: #063A4B;
+$black: #0C1F24;
+
+/*  Typography
+----------------*/
+@mixin sans{	font-family: Ubuntu, sans-serif; }
+
+.custom{
+	background: url('images/background.jpg') $grey 0px 4px repeat-x;
+	@include sans;
+	.page{ background: none; }
+	#header_area{
+	  border-top: 4px solid $black;
+		#header{
+			padding:0;
+			#logo{
+				text-indent: -9999px;
+				display:block;
+				width: 240px;
+				height: 116px;
+				background: url('images/logo.jpg') top right no-repeat;
+				margin:0;
+				margin-right: 1.3em;
+				padding:0;
+				@include float(right);
+				a{
+					display:block;
+					width: 100%;
+					height: 100%;
+					text-indent: -9999px;
+				}
+			}
+			.menu{
+				@include float(left);
+				border:none;
+				li{
+				  a{
+						background:none;
+						border: none;
+					}
+				}
+			}
+		}
+	}/*heade_area*/
+
+	#content_area{
+		#content_box{
+			#content{
+				background: $white;
+				border: solid $sblue;
+				border-width: 3px 0 1px 0;
+				margin-top: -7em;
+				.headline_area{
+					h1.entry-title{
+						border-bottom: 1px solid $sblue;
+						padding: 2px;
+						margin: 4px;
+					}
+				}
+				.post_box{
+					margin: 0 1.8em;
+				}
+				.post_image{
+					border: 1px solid $black;
+				}
+			}
+			#sidebars{
+				.sidebar_list{
+					padding-left: 2em;
+					padding-right: 0;
+				}
+			}
+		}
+	}/*content_area*/
+
+	#footer_area{
+		#footer{
+			color: darken($grey, 25%);
+			a{
+				border-bottom: 1px solid $sblue;
+			}
+		}
+	}
+}
+
