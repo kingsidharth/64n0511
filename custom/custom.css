@@ -1,27 +1,34 @@
+/*---- Copyright (c) 2011 King Sidharth. All Rights Reserved
+Stylesheet for 64n0511 Theme for Thesis and Wordpress for 64notes.com
+Find more on: https://github.com/kingsidharth/64n0511
+
+See, Learn, Steal
+
+*/
 /*  Color Definitions
 ------------------------*/
 /*  Typography
 ----------------*/
-/* line 15, ../src/custom.scss */
+/* line 23, ../src/custom.scss */
 .custom {
   background: url("images/background.jpg") #e1e1e1 0px 4px repeat-x;
   font-family: Ubuntu, sans-serif;
   /*heade_area*/
   /*content_area*/
 }
-/* line 18, ../src/custom.scss */
+/* line 26, ../src/custom.scss */
 .custom .page {
   background: none;
 }
-/* line 19, ../src/custom.scss */
+/* line 27, ../src/custom.scss */
 .custom #header_area {
   border-top: 4px solid #0c1f24;
 }
-/* line 21, ../src/custom.scss */
+/* line 29, ../src/custom.scss */
 .custom #header_area #header {
   padding: 0;
 }
-/* line 23, ../src/custom.scss */
+/* line 31, ../src/custom.scss */
 .custom #header_area #header #logo {
   text-indent: -9999px;
   display: block;
@@ -34,55 +41,55 @@
   display: inline;
   float: right;
 }
-/* line 33, ../src/custom.scss */
+/* line 41, ../src/custom.scss */
 .custom #header_area #header #logo a {
   display: block;
   width: 100%;
   height: 100%;
   text-indent: -9999px;
 }
-/* line 40, ../src/custom.scss */
+/* line 48, ../src/custom.scss */
 .custom #header_area #header .menu {
   display: inline;
   float: left;
   border: none;
 }
-/* line 44, ../src/custom.scss */
+/* line 52, ../src/custom.scss */
 .custom #header_area #header .menu li a {
   background: none;
   border: none;
 }
-/* line 55, ../src/custom.scss */
+/* line 63, ../src/custom.scss */
 .custom #content_area #content_box #content {
   background: #fafafa;
   border: solid #0099ab;
   border-width: 3px 0 1px 0;
   margin-top: -7em;
 }
-/* line 61, ../src/custom.scss */
+/* line 69, ../src/custom.scss */
 .custom #content_area #content_box #content .headline_area h1.entry-title {
   border-bottom: 1px solid #0099ab;
   padding: 2px;
   margin: 4px;
 }
-/* line 67, ../src/custom.scss */
+/* line 75, ../src/custom.scss */
 .custom #content_area #content_box #content .post_box {
   margin: 0 1.8em;
 }
-/* line 70, ../src/custom.scss */
+/* line 78, ../src/custom.scss */
 .custom #content_area #content_box #content .post_image {
   border: 1px solid #0c1f24;
 }
-/* line 75, ../src/custom.scss */
+/* line 83, ../src/custom.scss */
 .custom #content_area #content_box #sidebars .sidebar_list {
   padding-left: 2em;
   padding-right: 0;
 }
-/* line 84, ../src/custom.scss */
+/* line 92, ../src/custom.scss */
 .custom #footer_area #footer {
   color: #a1a1a1;
 }
-/* line 86, ../src/custom.scss */
+/* line 94, ../src/custom.scss */
 .custom #footer_area #footer a {
   border-bottom: 1px solid #0099ab;
 }
