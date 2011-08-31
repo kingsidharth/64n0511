@@ -27,7 +27,7 @@ add_action('thesis_hook_header','thesis_nav_menu');
 remove_action('thesis_hook_footer', 'thesis_attribution');
 function custom_footer(){ ?>
   <p>
-  <a href="https://github.com/kingsidharth/64n0511">64n0511</a> thesis child theme, made by <a href="http://www.kingsidharth.com">King Sidharth</a> for <a href="http://64notes.com">64 Notes</a>.
+  <a href="http://www.64notes.com/64n0511">64n0511</a> thesis child theme, made by <a href="http://www.kingsidharth.com">King Sidharth</a> for <a href="http://64notes.com">64 Notes</a>.
 <?php }
 add_action('thesis_hook_footer','custom_footer');
 
